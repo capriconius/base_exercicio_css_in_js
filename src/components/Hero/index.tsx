@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import styles from './Hero.module.css'
 
 const Hero = () => (
@@ -8,6 +9,18 @@ const Hero = () => (
       </h2>
     </div>
   </form>
+=======
+import React from 'react'
+import { Form, HeroTitle } from './Styles'
+const Hero = () => (
+  <Form>
+    <div className="container">
+      <HeroTitle>
+        As melhores vagas para tecnologia, design e artes visuais.
+      </HeroTitle>
+    </div>
+  </Form>
+>>>>>>> 015c58e (atualizando arquivo)
 )
 
 export default Hero

@@ -1,4 +1,49 @@
+<<<<<<< HEAD
 import styles from './Vaga.module.css'
+=======
+import styled from 'styled-components'
+
+const StyledComponents = {
+  Vaga: styled.li`
+    border: 1px solid var(--cor-principal);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    padding: 16px;
+    transition: all ease 0.3s;
+    border-radius: 8px;
+  `,
+
+  VagaTitulo: styled.h3`
+    font-weight: bold;
+    margin-bottom: 16px;
+  `,
+
+  VagaLink: styled.a`
+    border: 2px solid var(--cor-button);
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+    transition: all ease 0.3s;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+
+    &:hover {
+      background-color: var(--cor-secundaria);
+      color: var(--cor-principal);
+      border-color: var(--cor-principal);
+    }
+  `
+}
+>>>>>>> 015c58e (atualizando arquivo)
 
 type Props = {
   titulo: string
@@ -11,21 +56,37 @@ type Props = {
 }
 
 const Vaga = (props: Props) => (
+<<<<<<< HEAD
   <li className={styles.vaga}>
     <h3 className={styles.vagaTitulo}>{props.titulo}</h3>
     <ul>
       <li>Localizacao: {props.localizacao}</li>
       <li>Senioridade: {props.nivel}</li>
       <li>Tipo de contratacao: {props.modalidade}</li>
+=======
+  <StyledComponents.Vaga>
+    <StyledComponents.VagaTitulo>{props.titulo}</StyledComponents.VagaTitulo>
+    <ul>
+      <li>Localização: {props.localizacao}</li>
+      <li>Senioridade: {props.nivel}</li>
+      <li>Tipo de contratação: {props.modalidade}</li>
+>>>>>>> 015c58e (atualizando arquivo)
       <li>
         Salário: {props.salarioMin} - {props.salarioMax}
       </li>
       <li>Requisitos: {props.requisitos.join(', ')}</li>
     </ul>
+<<<<<<< HEAD
     <a className={styles.vagaLink} href="#">
       Ver detalhes e candidatar-se
     </a>
   </li>
+=======
+    <StyledComponents.VagaLink href="#">
+      Ver detalhes e candidatar-se
+    </StyledComponents.VagaLink>
+  </StyledComponents.Vaga>
+>>>>>>> 015c58e (atualizando arquivo)
 )
 
 export default Vaga

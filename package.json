@@ -12,9 +12,14 @@
     "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
     "typescript": "^4.9.5",
+=======
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.6",
+>>>>>>> 015c58e (atualizando arquivo)
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -50,6 +55,11 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+<<<<<<< HEAD
     "prettier": "^2.8.4"
+=======
+    "prettier": "^2.8.4",
+    "typescript": "^5.9.3"
+>>>>>>> 015c58e (atualizando arquivo)
   }
 }
