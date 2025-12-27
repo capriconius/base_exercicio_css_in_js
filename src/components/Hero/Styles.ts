@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Form = styled.section`
   height: 360px;
@@ -25,12 +25,12 @@ export const Form = styled.section`
     height: auto;
     padding: 24px 0;
   }
-`;
+`
 
 export const FormContent = styled.div`
   position: relative;
   color: #ffffff;
-`;
+`
 
 export const HeroTitle = styled.h1`
   font-family: 'Gloock', serif;
@@ -41,4 +41,4 @@ export const HeroTitle = styled.h1`
   @media (max-width: 768px) {
     font-size: 32px;
   }
-`;
+`

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Vaga = styled.div`
   border: 1px solid var(--cor-principal);
@@ -19,12 +19,12 @@ export const Vaga = styled.div`
       color: var(--cor-principal);
     }
   }
-`;
+`
 
 export const VagaTitulo = styled.h2`
   font-weight: bold;
   margin-bottom: 16px;
-`;
+`
 
 export const VagaInfo = styled.ul`
   list-style: none;
@@ -34,7 +34,7 @@ export const VagaInfo = styled.ul`
   li {
     margin-bottom: 8px;
   }
-`;
+`
 
 export const VagaLink = styled.a`
   border: 1px solid var(--cor-secundaria);
@@ -53,4 +53,4 @@ export const VagaLink = styled.a`
   @media (max-width: 768px) {
     display: block;
   }
-`;
+`

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const StyledForm = styled.form`
   display: grid;
@@ -7,7 +7,7 @@ export const StyledForm = styled.form`
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
-`;
+`
 
 export const BtnPesquisar = styled.button`
   background-color: var(--cor-principal);
@@ -24,4 +24,4 @@ export const BtnPesquisar = styled.button`
   &:hover {
     opacity: 0.9;
   }
-`;
+`
