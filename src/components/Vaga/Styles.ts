@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const VagaWrapper = styled.li`
+export const Vaga = styled.div`
   border: 1px solid var(--cor-principal);
   background-color: var(--cor-secundaria);
   color: var(--cor-principal);
@@ -14,14 +14,14 @@ export const VagaWrapper = styled.li`
     color: var(--cor-secundaria);
 
     a {
-      border-color: var(--cor-principal);
+      border: 1px solid var(--cor-principal);
       background-color: var(--cor-secundaria);
       color: var(--cor-principal);
     }
   }
 `;
 
-export const VagaTitulo = styled.h3`
+export const VagaTitulo = styled.h2`
   font-weight: bold;
   margin-bottom: 16px;
 `;
@@ -54,31 +54,3 @@ export const VagaLink = styled.a`
     display: block;
   }
 `;
-
-type Props = {
-  titulo: string;
-  localizacao: string;
-  nivel: string;
-  modalidade: string;
-  salarioMin: number;
-  salarioMax: number;
-  requisitos: string[];
-};
-
-const Vaga = (props: Props) => (
-  <VagaWrapper>
-    <VagaTitulo>{props.titulo}</VagaTitulo>
-    <VagaInfo>
-      <li>Localização: {props.localizacao}</li>
-      <li>Senioridade: {props.nivel}</li>
-      <li>Tipo de contratação: {props.modalidade}</li>
-      <li>
-        Salário: {props.salarioMin} - {props.salarioMax}
-      </li>
-      <li>Requisitos: {props.requisitos.join(', ')}</li>
-    </VagaInfo>
-    <VagaLink href="#">Ver detalhes e candidatar-se</VagaLink>
-  </VagaWrapper>
-);
-
-export default Vaga;
