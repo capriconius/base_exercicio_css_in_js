@@ -29,13 +29,14 @@ export const Form = styled.section`
 
 export const FormContent = styled.div`
   position: relative;
-  color: #eee;
+  color: #ffffff;
 `;
 
 export const HeroTitle = styled.h1`
   font-family: 'Gloock', serif;
   font-size: 48px;
-  color: #eee;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
   @media (max-width: 768px) {
     font-size: 32px;

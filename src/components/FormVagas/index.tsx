@@ -1,5 +1,5 @@
 import React, { useState, FormEvent } from 'react'
-import { StyledForm, BtnPesquisar } from './Styles' // Agora está correto!
+import { StyledForm, BtnPesquisar } from './Styles'
 import styled from 'styled-components'
 
 const Input = styled.input`

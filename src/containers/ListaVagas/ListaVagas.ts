@@ -14,4 +14,3 @@ export const VagasContainer = styled.div`
     grid-template-columns: 1fr;
   }
 `;
-

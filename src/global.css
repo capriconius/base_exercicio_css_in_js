@@ -1,6 +1,8 @@
 :root {
-  --cor-principal:#a7727d;
-  --cor-secundaria:#f9f5e7;
+  --cor-principal: #a7727d;
+  --cor-secundaria: #f9f5e7;
+  --cor-button: #ffffff;
+  --cor-fundo: #1b1818;
 }
 
 * {
@@ -13,6 +15,9 @@
 
 body {
   padding-bottom: 120px;
+  background-color: var(--cor-fundo);
+  color: var(--cor-principal);
+  text-align: center;
 }
 
 .container {

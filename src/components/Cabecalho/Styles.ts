@@ -8,5 +8,3 @@ const Cabecalho = styled.header`
 `;
 
 export default Cabecalho;
-
-

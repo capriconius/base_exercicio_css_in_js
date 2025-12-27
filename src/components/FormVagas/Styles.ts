@@ -25,4 +25,3 @@ export const BtnPesquisar = styled.button`
     opacity: 0.9;
   }
 `;
-

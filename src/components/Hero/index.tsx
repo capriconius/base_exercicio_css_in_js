@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, HeroTitle } from './Styles' // Corrigindo a importação
+import { Form, HeroTitle } from './Styles'
 
 const Hero = () => (
   <Form>
