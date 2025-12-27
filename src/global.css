@@ -15,9 +15,6 @@
 
 body {
   padding-bottom: 120px;
-  background-color: var(--cor-fundo);
-  color: var(--cor-principal);
-  text-align: center;
 }
 
 .container {
